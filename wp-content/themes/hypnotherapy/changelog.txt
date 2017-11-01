@@ -1,0 +1,5 @@
+Version 1.0.1
+	- WooCommerce version 3.0+ ready 
+	- Updated Revolution Slider and Visual Composer plugins to their latest versions
+
+Version 1.0 - Release

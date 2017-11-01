@@ -1,0 +1,573 @@
+0000.004 (0) Opened log file at time: Fri, 29 Sep 2017 16:45:21 +0000 on http://127.0.0.1:88/efrainromo
+0000.057 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.9 WP: 4.8.1 PHP: 7.0.9 (apache2handler, Windows NT DESKTOP-MLA6ABP 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.5.49 WPLANG: es_ES Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.0.9 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 12.4M | 2M) multisite: N openssl: OpenSSL 1.0.2e 3 Dec 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.155 (0) Free space on disk containing Updraft's temporary directory: 149469.4 MB
+0000.205 (0) Tasks: Backup files:  (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.255 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.355 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1506643898, seconds_ago=59623)
+0000.532 (0) Set semaphore last lock (d) time to 2017-09-29 16:45:22
+0000.577 (0) Semaphore lock (d) complete
+0000.711 (0) Backup run: resumption=0, nonce=c7d3d37b9795, begun at=1506703521 (1s ago), job type=backup
+0000.799 (0) Scheduling a resumption (1) after 300 seconds (1506703822) in case this run gets aborted
+0000.889 (0) This backup run is not intended for files - skipping
+0000.933 (0) Beginning creation of database dump (WordPress DB)
+0001.224 (0) Table er_options: Total expected rows (approximate): 2093
+0001.376 (0) Table er_options: Total rows added: 536 in 0.10 seconds
+0001.446 (0) Table er_options: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_options.table.gz - 79.8 KB)
+0001.690 (0) Table er_users: Total expected rows (approximate): 5
+0001.752 (0) Table er_users: Total rows added: 5 in 0.02 seconds
+0001.803 (0) Table er_users: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_users.table.gz - 0.7 KB)
+0001.971 (0) Table er_usermeta: Total expected rows (approximate): 112
+0002.057 (0) Table er_usermeta: Total rows added: 112 in 0.04 seconds
+0002.154 (0) Table er_usermeta: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_usermeta.table.gz - 3 KB)
+0002.358 (0) Table er_commentmeta: Total expected rows (approximate): 6
+0002.425 (0) Table er_commentmeta: Total rows added: 6 in 0.01 seconds
+0002.478 (0) Table er_commentmeta: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_commentmeta.table.gz - 0.4 KB)
+0002.646 (0) Table er_comments: Total expected rows (approximate): 6
+0002.728 (0) Table er_comments: Total rows added: 6 in 0.02 seconds
+0002.801 (0) Table er_comments: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_comments.table.gz - 1.2 KB)
+0002.984 (0) Table er_links: Total expected rows (approximate): 0
+0003.076 (0) Table er_links: Total rows added: 0 in 0.02 seconds
+0003.178 (0) Table er_links: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_links.table.gz - 0.4 KB)
+0003.415 (0) Table er_postmeta: Total expected rows (approximate): 3048
+0003.671 (0) Table er_postmeta: Total rows added: 3557 in 0.20 seconds
+0003.724 (0) Table er_postmeta: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_postmeta.table.gz - 45.2 KB)
+0003.884 (0) Table er_posts: Total expected rows (approximate): 278
+0004.122 (0) Table er_posts: Total rows added: 349 in 0.18 seconds
+0004.213 (0) Table er_posts: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_posts.table.gz - 93.3 KB)
+0004.445 (0) Table er_term_relationships: Total expected rows (approximate): 136
+0004.508 (0) Table er_term_relationships: Total rows added: 136 in 0.02 seconds
+0004.556 (0) Table er_term_relationships: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_term_relationships.table.gz - 0.8 KB)
+0004.702 (0) Table er_term_taxonomy: Total expected rows (approximate): 66
+0004.762 (0) Table er_term_taxonomy: Total rows added: 66 in 0.02 seconds
+0004.825 (0) Table er_term_taxonomy: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_term_taxonomy.table.gz - 0.9 KB)
+0004.970 (0) Table er_termmeta: Total expected rows (approximate): 2
+0005.037 (0) Table er_termmeta: Total rows added: 2 in 0.02 seconds
+0005.103 (0) Table er_termmeta: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_termmeta.table.gz - 0.5 KB)
+0005.358 (0) Table er_terms: Total expected rows (approximate): 66
+0005.417 (0) Table er_terms: Total rows added: 66 in 0.02 seconds
+0005.512 (0) Table er_terms: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_terms.table.gz - 1.2 KB)
+0005.723 (0) Table er_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0005.781 (0) Table er_woocommerce_order_itemmeta: Total rows added: 0 in 0.01 seconds
+0005.835 (0) Table er_woocommerce_order_itemmeta: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0005.980 (0) Table er_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0006.035 (0) Table er_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.01 seconds
+0006.089 (0) Table er_woocommerce_payment_tokenmeta: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0006.347 (0) Table er_eg_grids: Total expected rows (approximate): 3
+0006.415 (0) Table er_eg_grids: Total rows added: 3 in 0.02 seconds
+0006.470 (0) Table er_eg_grids: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_eg_grids.table.gz - 2.1 KB)
+0006.636 (0) Table er_eg_item_elements: Total expected rows (approximate): 0
+0006.691 (0) Table er_eg_item_elements: Total rows added: 0 in 0.01 seconds
+0006.767 (0) Table er_eg_item_elements: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_eg_item_elements.table.gz - 0.3 KB)
+0006.913 (0) Table er_eg_item_skins: Total expected rows (approximate): 61
+0007.005 (0) Table er_eg_item_skins: Total rows added: 50 in 0.05 seconds
+0007.071 (0) Table er_eg_item_skins: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_eg_item_skins.table.gz - 22.2 KB)
+0007.339 (0) Table er_eg_navigation_skins: Total expected rows (approximate): 10
+0007.419 (0) Table er_eg_navigation_skins: Total rows added: 8 in 0.02 seconds
+0007.479 (0) Table er_eg_navigation_skins: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_eg_navigation_skins.table.gz - 3.4 KB)
+0007.646 (0) Table er_revslider_css: Total expected rows (approximate): 87
+0007.713 (0) Table er_revslider_css: Total rows added: 113 in 0.02 seconds
+0007.757 (0) Table er_revslider_css: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_css.table.gz - 5 KB)
+0007.913 (0) Table er_revslider_layer_animations: Total expected rows (approximate): 0
+0007.969 (0) Table er_revslider_layer_animations: Total rows added: 0 in 0.01 seconds
+0008.012 (0) Table er_revslider_layer_animations: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_layer_animations.table.gz - 0.3 KB)
+0008.157 (0) Table er_revslider_navigations: Total expected rows (approximate): 0
+0008.252 (0) Table er_revslider_navigations: Total rows added: 0 in 0.05 seconds
+0008.367 (0) Table er_revslider_navigations: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_navigations.table.gz - 0.3 KB)
+0008.980 (0) Table er_revslider_sliders: Total expected rows (approximate): 6
+0009.190 (0) Table er_revslider_sliders: Total rows added: 7 in 0.05 seconds
+0009.367 (0) Table er_revslider_sliders: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_sliders.table.gz - 4 KB)
+0009.537 (0) Table er_revslider_slides: Total expected rows (approximate): 13
+0009.611 (0) Table er_revslider_slides: Total rows added: 11 in 0.03 seconds
+0009.669 (0) Table er_revslider_slides: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_slides.table.gz - 11.8 KB)
+0009.881 (0) Table er_revslider_static_slides: Total expected rows (approximate): 0
+0010.061 (0) Table er_revslider_static_slides: Total rows added: 0 in 0.02 seconds
+0010.146 (0) Table er_revslider_static_slides: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_static_slides.table.gz - 0.3 KB)
+0010.359 (0) Table er_woocommerce_api_keys: Total expected rows (approximate): 0
+0010.458 (0) Table er_woocommerce_api_keys: Total rows added: 0 in 0.02 seconds
+0010.502 (0) Table er_woocommerce_api_keys: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_api_keys.table.gz - 0.4 KB)
+0010.708 (0) Table er_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0010.794 (0) Table er_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.04 seconds
+0010.846 (0) Table er_woocommerce_attribute_taxonomies: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0010.992 (0) Table er_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0011.090 (0) Table er_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.03 seconds
+0011.158 (0) Table er_woocommerce_downloadable_product_permissions: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0011.310 (0) Table er_woocommerce_log: Total expected rows (approximate): 0
+0011.440 (0) Table er_woocommerce_log: Total rows added: 0 in 0.04 seconds
+0011.507 (0) Table er_woocommerce_log: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_log.table.gz - 0.4 KB)
+0011.669 (0) Table er_woocommerce_order_items: Total expected rows (approximate): 0
+0011.753 (0) Table er_woocommerce_order_items: Total rows added: 0 in 0.03 seconds
+0011.804 (0) Table er_woocommerce_order_items: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_order_items.table.gz - 0.3 KB)
+0011.978 (0) Table er_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0012.069 (0) Table er_woocommerce_payment_tokens: Total rows added: 0 in 0.05 seconds
+0012.125 (0) Table er_woocommerce_payment_tokens: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0012.270 (0) Table er_woocommerce_sessions: Total expected rows (approximate): 1
+0012.381 (0) Table er_woocommerce_sessions: Total rows added: 1 in 0.07 seconds
+0012.448 (0) Table er_woocommerce_sessions: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_sessions.table.gz - 0.6 KB)
+0012.597 (0) Table er_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0012.678 (0) Table er_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.03 seconds
+0012.724 (0) Table er_woocommerce_shipping_zone_locations: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0012.891 (0) Table er_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0012.947 (0) Table er_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.01 seconds
+0012.994 (0) Table er_woocommerce_shipping_zone_methods: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0013.159 (0) Table er_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0013.212 (0) Table er_woocommerce_shipping_zones: Total rows added: 0 in 0.01 seconds
+0013.260 (0) Table er_woocommerce_shipping_zones: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0013.484 (0) Table er_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0013.584 (0) Table er_woocommerce_tax_rate_locations: Total rows added: 0 in 0.04 seconds
+0013.636 (0) Table er_woocommerce_tax_rate_locations: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0013.814 (0) Table er_woocommerce_tax_rates: Total expected rows (approximate): 0
+0013.868 (0) Table er_woocommerce_tax_rates: Total rows added: 0 in 0.01 seconds
+0013.929 (0) Table er_woocommerce_tax_rates: finishing file (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_tax_rates.table.gz - 0.4 KB)
+0014.093 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_options.table.gz (1/36): adding to final database dump
+0014.231 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_users.table.gz (2/36): adding to final database dump
+0014.279 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_usermeta.table.gz (3/36): adding to final database dump
+0014.326 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_commentmeta.table.gz (4/36): adding to final database dump
+0014.414 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_comments.table.gz (5/36): adding to final database dump
+0014.471 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_links.table.gz (6/36): adding to final database dump
+0014.525 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_postmeta.table.gz (7/36): adding to final database dump
+0014.625 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_posts.table.gz (8/36): adding to final database dump
+0014.731 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_term_relationships.table.gz (9/36): adding to final database dump
+0014.845 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_term_taxonomy.table.gz (10/36): adding to final database dump
+0014.891 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_termmeta.table.gz (11/36): adding to final database dump
+0014.936 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_terms.table.gz (12/36): adding to final database dump
+0015.002 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_order_itemmeta.table.gz (13/36): adding to final database dump
+0015.056 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_payment_tokenmeta.table.gz (14/36): adding to final database dump
+0015.114 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_eg_grids.table.gz (15/36): adding to final database dump
+0015.182 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_eg_item_elements.table.gz (16/36): adding to final database dump
+0015.222 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_eg_item_skins.table.gz (17/36): adding to final database dump
+0015.297 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_eg_navigation_skins.table.gz (18/36): adding to final database dump
+0015.381 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_css.table.gz (19/36): adding to final database dump
+0015.460 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_layer_animations.table.gz (20/36): adding to final database dump
+0015.525 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_navigations.table.gz (21/36): adding to final database dump
+0015.581 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_sliders.table.gz (22/36): adding to final database dump
+0015.666 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_slides.table.gz (23/36): adding to final database dump
+0015.725 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_revslider_static_slides.table.gz (24/36): adding to final database dump
+0015.769 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_api_keys.table.gz (25/36): adding to final database dump
+0015.812 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_attribute_taxonomies.table.gz (26/36): adding to final database dump
+0015.856 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_downloadable_product_permissions.table.gz (27/36): adding to final database dump
+0015.902 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_log.table.gz (28/36): adding to final database dump
+0015.945 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_order_items.table.gz (29/36): adding to final database dump
+0015.990 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_payment_tokens.table.gz (30/36): adding to final database dump
+0016.036 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_sessions.table.gz (31/36): adding to final database dump
+0016.079 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_shipping_zone_locations.table.gz (32/36): adding to final database dump
+0016.123 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_shipping_zone_methods.table.gz (33/36): adding to final database dump
+0016.181 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_shipping_zones.table.gz (34/36): adding to final database dump
+0016.247 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_tax_rate_locations.table.gz (35/36): adding to final database dump
+0016.302 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db-table-er_woocommerce_tax_rates.table.gz (36/36): adding to final database dump
+0016.380 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz: finished writing out complete database file (264 KB)
+0016.735 (0) Total database tables backed up: 36 (backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz, size: 281143, sha256)
+0016.922 (0) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz: db: This file has not yet been successfully uploaded: will queue
+0016.968 (0) Saving backup history. Total backup size: 274.6 KB
+0017.056 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0017.189 (0) Cloud backup selection (1/1): dropbox (last)
+0017.236 (0) Beginning dispatch of backup to remote (dropbox)
+0017.278 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0017.370 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0017.554 (0) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Could not resolve host: api.dropboxapi.com
+0017.601 (0) Dropbox: Attempt to upload: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz to: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz
+0017.662 (0) Dropbox chunked upload exception (Dropbox_CurlException): Could not resolve host: content.dropboxapi.com (line: 163, file: C:\MAMP\htdocs\efrainromo\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+0017.701 (0) Dropbox error: Could not resolve host: content.dropboxapi.com
+0017.745 (0) An error condition has occurred for the first time during this job
+0017.834 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0017.913 (0) Number of backup sets in history: 5; groups (db): 1
+0017.978 (0) Examining (for databases) backup set with group_id=0, nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+0018.047 (0) This backup set is the backup set just made, so will not be deleted.
+0018.048 (0) Examining (for databases) backup set with group_id=0, nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+0018.048 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0018.102 (0) Examining (for databases) backup set with group_id=0, nonce=954dd7930be6, datestamp=1506530729 (Sep 27 2017 16:45:29)
+0018.102 (0) 1506530729: db: this set includes a database (backup_2017-09-27-1645_Efrain_Romo_954dd7930be6-db.gz); db count is now 2
+0018.102 (0) 1506530729: db: over retain limit (2); will delete this database
+0018.102 (0) Delete file: backup_2017-09-27-1645_Efrain_Romo_954dd7930be6-db.gz, service=dropbox
+0018.146 (0) Deleting local copy (backup_2017-09-27-1645_Efrain_Romo_954dd7930be6-db.gz)
+0018.193 (0) Dropbox: request deletion: backup_2017-09-27-1645_Efrain_Romo_954dd7930be6-db.gz
+0018.240 (0) Dropbox error: Could not resolve host: api.dropboxapi.com (line: 163, file: C:\MAMP\htdocs\efrainromo\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+0018.323 (0) This backup set is now empty; will remove from history
+0018.426 (0) Deleting log file (log.954dd7930be6.txt)
+0018.469 (0) Examining (for databases) backup set with group_id=0, nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+0018.469 (0) Examining (for databases) backup set with group_id=0, nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+0018.470 (0) Number of backup sets in history: 4; groups (files): 1
+0018.512 (0) Examining (for files) backup set with nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+0018.512 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0018.556 (0) Examining (for files) backup set with nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+0018.556 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0018.557 (0) Examining (for files) backup set with nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+0018.557 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0018.601 (0) Examining (for files) backup set with nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+0018.601 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0018.601 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0018.745 (0) Resume backup (c7d3d37b9795, 0): finish run
+0018.878 (0) Decremented the semaphore (d) by 1
+0018.967 (0) Semaphore (d) unlocked
+0019.020 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0019.156 (0) Rescheduling resumption 1: moving to 120 seconds from now (1506703660)
+0019.289 (0) No email will/can be sent - the user has not configured an email address.
+0019.334 (0) El respaldo no ha terminado; una reanudación está programada
+0149.138 (1) Opened log file at time: Fri, 29 Sep 2017 16:47:50 +0000 on http://127.0.0.1:88/efrainromo
+0149.184 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.9 WP: 4.8.1 PHP: 7.0.9 (apache2handler, Windows NT DESKTOP-MLA6ABP 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.5.49 WPLANG: es_ES Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.0.9 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 12.4M | 2M) multisite: N openssl: OpenSSL 1.0.2e 3 Dec 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0149.240 (1) Free space on disk containing Updraft's temporary directory: 149463.6 MB
+0149.405 (1) Backup run: resumption=1, nonce=c7d3d37b9795, begun at=1506703521 (149s ago), job type=backup, previous check-in=18.3s
+0149.505 (1) Scheduling a resumption (2) after 300 seconds (1506703971) in case this run gets aborted
+0149.595 (1) This backup run is not intended for files - skipping
+0149.638 (1) Database dump (WordPress DB): Creation was completed already
+0149.798 (1) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz: db: This file has not yet been successfully uploaded: will queue
+0149.838 (1) Saving backup history. Total backup size: 274.6 KB
+0149.983 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0150.071 (1) Cloud backup selection (1/1): dropbox (last)
+0150.119 (1) Beginning dispatch of backup to remote (dropbox)
+0150.161 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0150.216 (1) Dropbox: access gained; setting chunk size to: 1024 KB
+0150.268 (1) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Could not resolve host: api.dropboxapi.com
+0150.347 (1) Dropbox: Attempt to upload: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz to: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz
+0150.411 (1) Dropbox chunked upload exception (Dropbox_CurlException): Could not resolve host: content.dropboxapi.com (line: 163, file: C:\MAMP\htdocs\efrainromo\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+0150.460 (1) Dropbox error: Could not resolve host: content.dropboxapi.com
+0150.509 (1) An error condition has occurred for the first time during this job
+0150.620 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0150.662 (1) Number of backup sets in history: 4; groups (db): 1
+0150.715 (1) Examining (for databases) backup set with group_id=0, nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+0150.765 (1) This backup set is the backup set just made, so will not be deleted.
+0150.765 (1) Examining (for databases) backup set with group_id=0, nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+0150.765 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0150.805 (1) Examining (for databases) backup set with group_id=0, nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+0150.805 (1) Examining (for databases) backup set with group_id=0, nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+0150.805 (1) Number of backup sets in history: 4; groups (files): 1
+0150.849 (1) Examining (for files) backup set with nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+0150.850 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0150.894 (1) Examining (for files) backup set with nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+0150.894 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0150.895 (1) Examining (for files) backup set with nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+0150.895 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0150.948 (1) Examining (for files) backup set with nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+0150.948 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0150.952 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0151.039 (1) Resume backup (c7d3d37b9795, 1): finish run
+0151.082 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0151.183 (1) No email will/can be sent - the user has not configured an email address.
+0151.227 (1) El respaldo no ha terminado; una reanudación está programada
+0457.628 (2) Opened log file at time: Fri, 29 Sep 2017 16:52:59 +0000 on http://127.0.0.1:88/efrainromo
+0457.709 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.9 WP: 4.8.1 PHP: 7.0.9 (apache2handler, Windows NT DESKTOP-MLA6ABP 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.5.49 WPLANG: es_ES Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.0.9 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 12.4M | 2M) multisite: N openssl: OpenSSL 1.0.2e 3 Dec 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0457.764 (2) Free space on disk containing Updraft's temporary directory: 149451 MB
+0457.862 (2) Backup run: resumption=2, nonce=c7d3d37b9795, begun at=1506703521 (458s ago), job type=backup
+0457.951 (2) Scheduling a resumption (3) after 300 seconds (1506704279) in case this run gets aborted
+0458.102 (2) This backup run is not intended for files - skipping
+0458.151 (2) Database dump (WordPress DB): Creation was completed already
+0458.318 (2) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz: db: This file has not yet been successfully uploaded: will queue
+0458.362 (2) Saving backup history. Total backup size: 274.6 KB
+0458.475 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+0458.562 (2) Cloud backup selection (1/1): dropbox (last)
+0458.609 (2) Beginning dispatch of backup to remote (dropbox)
+0458.650 (2) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0458.706 (2) Dropbox: access gained; setting chunk size to: 1024 KB
+0458.760 (2) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Could not resolve host: api.dropboxapi.com
+0458.807 (2) Dropbox: Attempt to upload: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz to: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz
+0458.859 (2) Dropbox chunked upload exception (Dropbox_CurlException): Could not resolve host: content.dropboxapi.com (line: 163, file: C:\MAMP\htdocs\efrainromo\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+0458.907 (2) Dropbox error: Could not resolve host: content.dropboxapi.com
+0458.951 (2) An error condition has occurred for the first time during this job
+0459.130 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0459.176 (2) Number of backup sets in history: 4; groups (db): 1
+0459.229 (2) Examining (for databases) backup set with group_id=0, nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+0459.273 (2) This backup set is the backup set just made, so will not be deleted.
+0459.274 (2) Examining (for databases) backup set with group_id=0, nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+0459.274 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.318 (2) Examining (for databases) backup set with group_id=0, nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+0459.319 (2) Examining (for databases) backup set with group_id=0, nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+0459.319 (2) Number of backup sets in history: 4; groups (files): 1
+0459.362 (2) Examining (for files) backup set with nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+0459.363 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.407 (2) Examining (for files) backup set with nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+0459.407 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.409 (2) Examining (for files) backup set with nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+0459.409 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+0459.451 (2) Examining (for files) backup set with nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+0459.451 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+0459.451 (2) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0459.551 (2) Resume backup (c7d3d37b9795, 2): finish run
+0459.595 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0459.685 (2) No email will/can be sent - the user has not configured an email address.
+0459.729 (2) El respaldo no ha terminado; una reanudación está programada
+0760.913 (3) Opened log file at time: Fri, 29 Sep 2017 16:58:02 +0000 on http://127.0.0.1:88/efrainromo
+0760.962 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.9 WP: 4.8.1 PHP: 7.0.9 (apache2handler, Windows NT DESKTOP-MLA6ABP 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.5.49 WPLANG: es_ES Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.0.9 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 12.4M | 2M) multisite: N openssl: OpenSSL 1.0.2e 3 Dec 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0761.007 (3) Free space on disk containing Updraft's temporary directory: 149437.5 MB
+0761.140 (3) Backup run: resumption=3, nonce=c7d3d37b9795, begun at=1506703521 (761s ago), job type=backup
+0761.228 (3) Scheduling a resumption (4) after 300 seconds (1506704582) in case this run gets aborted
+0761.318 (3) This backup run is not intended for files - skipping
+0761.362 (3) Database dump (WordPress DB): Creation was completed already
+0761.497 (3) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz: db: This file has not yet been successfully uploaded: will queue
+0761.551 (3) Saving backup history. Total backup size: 274.6 KB
+0761.647 (3) Requesting upload of the files that have not yet been successfully uploaded (1)
+0761.739 (3) Cloud backup selection (1/1): dropbox (last)
+0761.785 (3) Beginning dispatch of backup to remote (dropbox)
+0761.829 (3) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0761.875 (3) Dropbox: access gained; setting chunk size to: 1024 KB
+0761.987 (3) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Could not resolve host: api.dropboxapi.com
+0762.051 (3) Dropbox: Attempt to upload: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz to: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz
+0762.161 (3) Dropbox chunked upload exception (Dropbox_CurlException): Could not resolve host: content.dropboxapi.com (line: 163, file: C:\MAMP\htdocs\efrainromo\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+0762.195 (3) Dropbox error: Could not resolve host: content.dropboxapi.com
+0762.239 (3) An error condition has occurred for the first time during this job
+0762.351 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0762.396 (3) Number of backup sets in history: 4; groups (db): 1
+0762.440 (3) Examining (for databases) backup set with group_id=0, nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+0762.485 (3) This backup set is the backup set just made, so will not be deleted.
+0762.485 (3) Examining (for databases) backup set with group_id=0, nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+0762.485 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0762.554 (3) Examining (for databases) backup set with group_id=0, nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+0762.555 (3) Examining (for databases) backup set with group_id=0, nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+0762.555 (3) Number of backup sets in history: 4; groups (files): 1
+0762.617 (3) Examining (for files) backup set with nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+0762.617 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0762.662 (3) Examining (for files) backup set with nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+0762.662 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0762.662 (3) Examining (for files) backup set with nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+0762.662 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+0762.706 (3) Examining (for files) backup set with nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+0762.707 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+0762.707 (3) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0762.884 (3) Resume backup (c7d3d37b9795, 3): finish run
+0762.929 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0763.018 (3) No email will/can be sent - the user has not configured an email address.
+0763.096 (3) El respaldo no ha terminado; una reanudación está programada
+1121.406 (4) Opened log file at time: Fri, 29 Sep 2017 17:04:02 +0000 on http://127.0.0.1:88/efrainromo
+1121.431 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.9 WP: 4.8.1 PHP: 7.0.9 (apache2handler, Windows NT DESKTOP-MLA6ABP 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.5.49 WPLANG: es_ES Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.0.9 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 12.4M | 2M) multisite: N openssl: OpenSSL 1.0.2e 3 Dec 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1121.476 (4) Free space on disk containing Updraft's temporary directory: 149427.2 MB
+1121.587 (4) Backup run: resumption=4, nonce=c7d3d37b9795, begun at=1506703521 (1122s ago), job type=backup
+1121.676 (4) Scheduling a resumption (5) after 300 seconds (1506704943) in case this run gets aborted
+1121.783 (4) This backup run is not intended for files - skipping
+1121.809 (4) Database dump (WordPress DB): Creation was completed already
+1121.943 (4) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz: db: This file has not yet been successfully uploaded: will queue
+1121.976 (4) Saving backup history. Total backup size: 274.6 KB
+1122.043 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+1122.110 (4) Cloud backup selection (1/1): dropbox (last)
+1122.144 (4) Beginning dispatch of backup to remote (dropbox)
+1122.187 (4) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+1122.214 (4) Dropbox: access gained; setting chunk size to: 1024 KB
+1122.257 (4) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Could not resolve host: api.dropboxapi.com
+1122.287 (4) Dropbox: Attempt to upload: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz to: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz
+1122.402 (4) Dropbox chunked upload exception (Dropbox_CurlException): Could not resolve host: content.dropboxapi.com (line: 163, file: C:\MAMP\htdocs\efrainromo\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+1122.438 (4) Dropbox error: Could not resolve host: content.dropboxapi.com
+1122.471 (4) An error condition has occurred for the first time during this job
+1122.531 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1122.555 (4) Number of backup sets in history: 4; groups (db): 1
+1122.587 (4) Examining (for databases) backup set with group_id=0, nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+1122.620 (4) This backup set is the backup set just made, so will not be deleted.
+1122.621 (4) Examining (for databases) backup set with group_id=0, nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+1122.621 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1122.654 (4) Examining (for databases) backup set with group_id=0, nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+1122.654 (4) Examining (for databases) backup set with group_id=0, nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+1122.654 (4) Number of backup sets in history: 4; groups (files): 1
+1122.687 (4) Examining (for files) backup set with nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+1122.687 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1122.732 (4) Examining (for files) backup set with nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+1122.732 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1122.732 (4) Examining (for files) backup set with nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+1122.732 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+1122.782 (4) Examining (for files) backup set with nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+1122.783 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+1122.783 (4) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1122.920 (4) Resume backup (c7d3d37b9795, 4): finish run
+1122.943 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1123.009 (4) No email will/can be sent - the user has not configured an email address.
+1123.032 (4) El respaldo no ha terminado; una reanudación está programada
+1422.040 (5) Opened log file at time: Fri, 29 Sep 2017 17:09:03 +0000 on http://127.0.0.1:88/efrainromo
+1422.087 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.9 WP: 4.8.1 PHP: 7.0.9 (apache2handler, Windows NT DESKTOP-MLA6ABP 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.5.49 WPLANG: es_ES Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.0.9 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 12.4M | 2M) multisite: N openssl: OpenSSL 1.0.2e 3 Dec 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1422.147 (5) Free space on disk containing Updraft's temporary directory: 149418.8 MB
+1422.284 (5) Backup run: resumption=5, nonce=c7d3d37b9795, begun at=1506703521 (1422s ago), job type=backup
+1422.412 (5) Scheduling a resumption (6) after 300 seconds (1506705243) in case this run gets aborted
+1422.612 (5) This backup run is not intended for files - skipping
+1422.678 (5) Database dump (WordPress DB): Creation was completed already
+1422.889 (5) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz: db: This file has not yet been successfully uploaded: will queue
+1422.942 (5) Saving backup history. Total backup size: 274.6 KB
+1423.067 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+1423.154 (5) Cloud backup selection (1/1): dropbox (last)
+1423.199 (5) Beginning dispatch of backup to remote (dropbox)
+1423.243 (5) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+1423.290 (5) Dropbox: access gained; setting chunk size to: 1024 KB
+1423.340 (5) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Could not resolve host: api.dropboxapi.com
+1423.409 (5) Dropbox: Attempt to upload: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz to: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz
+1423.579 (5) Dropbox chunked upload exception (Dropbox_CurlException): Could not resolve host: content.dropboxapi.com (line: 163, file: C:\MAMP\htdocs\efrainromo\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+1423.620 (5) Dropbox error: Could not resolve host: content.dropboxapi.com
+1423.665 (5) An error condition has occurred for the first time during this job
+1423.754 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1423.801 (5) Number of backup sets in history: 4; groups (db): 1
+1423.843 (5) Examining (for databases) backup set with group_id=0, nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+1423.910 (5) This backup set is the backup set just made, so will not be deleted.
+1423.910 (5) Examining (for databases) backup set with group_id=0, nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+1423.910 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1423.954 (5) Examining (for databases) backup set with group_id=0, nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+1423.954 (5) Examining (for databases) backup set with group_id=0, nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+1423.954 (5) Number of backup sets in history: 4; groups (files): 1
+1423.999 (5) Examining (for files) backup set with nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+1423.999 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1424.043 (5) Examining (for files) backup set with nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+1424.043 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1424.044 (5) Examining (for files) backup set with nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+1424.044 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+1424.087 (5) Examining (for files) backup set with nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+1424.088 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+1424.088 (5) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1424.176 (5) Resume backup (c7d3d37b9795, 5): finish run
+1424.221 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1424.321 (5) No email will/can be sent - the user has not configured an email address.
+1424.365 (5) El respaldo no ha terminado; una reanudación está programada
+1764.128 (6) Opened log file at time: Fri, 29 Sep 2017 17:14:45 +0000 on http://127.0.0.1:88/efrainromo
+1764.178 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.9 WP: 4.8.1 PHP: 7.0.9 (apache2handler, Windows NT DESKTOP-MLA6ABP 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.5.49 WPLANG: es_ES Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.0.9 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 12.4M | 2M) multisite: N openssl: OpenSSL 1.0.2e 3 Dec 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1764.223 (6) Free space on disk containing Updraft's temporary directory: 149403.9 MB
+1764.323 (6) Backup run: resumption=6, nonce=c7d3d37b9795, begun at=1506703521 (1764s ago), job type=backup
+1764.411 (6) Scheduling a resumption (7) after 300 seconds (1506705585) in case this run gets aborted
+1764.503 (6) This backup run is not intended for files - skipping
+1764.544 (6) Database dump (WordPress DB): Creation was completed already
+1764.690 (6) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz: db: This file has not yet been successfully uploaded: will queue
+1764.753 (6) Saving backup history. Total backup size: 274.6 KB
+1764.867 (6) Requesting upload of the files that have not yet been successfully uploaded (1)
+1764.956 (6) Cloud backup selection (1/1): dropbox (last)
+1765.001 (6) Beginning dispatch of backup to remote (dropbox)
+1765.111 (6) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+1765.158 (6) Dropbox: access gained; setting chunk size to: 1024 KB
+1765.215 (6) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Could not resolve host: api.dropboxapi.com
+1765.256 (6) Dropbox: Attempt to upload: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz to: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz
+1765.310 (6) Dropbox chunked upload exception (Dropbox_CurlException): Could not resolve host: content.dropboxapi.com (line: 163, file: C:\MAMP\htdocs\efrainromo\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+1765.356 (6) Dropbox error: Could not resolve host: content.dropboxapi.com
+1765.400 (6) An error condition has occurred for the first time during this job
+1765.489 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1765.539 (6) Number of backup sets in history: 4; groups (db): 1
+1765.589 (6) Examining (for databases) backup set with group_id=0, nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+1765.634 (6) This backup set is the backup set just made, so will not be deleted.
+1765.635 (6) Examining (for databases) backup set with group_id=0, nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+1765.635 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1765.679 (6) Examining (for databases) backup set with group_id=0, nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+1765.679 (6) Examining (for databases) backup set with group_id=0, nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+1765.680 (6) Number of backup sets in history: 4; groups (files): 1
+1765.723 (6) Examining (for files) backup set with nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+1765.723 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1765.767 (6) Examining (for files) backup set with nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+1765.768 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1765.771 (6) Examining (for files) backup set with nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+1765.771 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+1765.823 (6) Examining (for files) backup set with nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+1765.823 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+1765.824 (6) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1765.923 (6) Resume backup (c7d3d37b9795, 6): finish run
+1766.012 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1766.172 (6) No email will/can be sent - the user has not configured an email address.
+1766.223 (6) El respaldo no ha terminado; una reanudación está programada
+2197.068 (7) Opened log file at time: Fri, 29 Sep 2017 17:21:58 +0000 on http://127.0.0.1:88/efrainromo
+2197.141 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.9 WP: 4.8.1 PHP: 7.0.9 (apache2handler, Windows NT DESKTOP-MLA6ABP 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.5.49 WPLANG: es_ES Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.0.9 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 12.4M | 2M) multisite: N openssl: OpenSSL 1.0.2e 3 Dec 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2197.185 (7) Free space on disk containing Updraft's temporary directory: 149309.3 MB
+2197.428 (7) Backup run: resumption=7, nonce=c7d3d37b9795, begun at=1506703521 (2197s ago), job type=backup
+2197.517 (7) Scheduling a resumption (8) after 300 seconds (1506706019) in case this run gets aborted
+2197.690 (7) This backup run is not intended for files - skipping
+2197.815 (7) Database dump (WordPress DB): Creation was completed already
+2198.374 (7) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz: db: This file has not yet been successfully uploaded: will queue
+2198.584 (7) Saving backup history. Total backup size: 274.6 KB
+2198.930 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+2199.253 (7) Cloud backup selection (1/1): dropbox (last)
+2199.412 (7) Beginning dispatch of backup to remote (dropbox)
+2199.503 (7) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+2199.542 (7) Dropbox: access gained; setting chunk size to: 1024 KB
+2199.616 (7) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Could not resolve host: api.dropboxapi.com
+2199.662 (7) Dropbox: Attempt to upload: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz to: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz
+2199.812 (7) Dropbox chunked upload exception (Dropbox_CurlException): Could not resolve host: content.dropboxapi.com (line: 163, file: C:\MAMP\htdocs\efrainromo\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+2199.862 (7) Dropbox error: Could not resolve host: content.dropboxapi.com
+2199.907 (7) An error condition has occurred for the first time during this job
+2200.061 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2200.108 (7) Number of backup sets in history: 4; groups (db): 1
+2200.151 (7) Examining (for databases) backup set with group_id=0, nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+2200.196 (7) This backup set is the backup set just made, so will not be deleted.
+2200.196 (7) Examining (for databases) backup set with group_id=0, nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+2200.196 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2200.240 (7) Examining (for databases) backup set with group_id=0, nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+2200.240 (7) Examining (for databases) backup set with group_id=0, nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+2200.240 (7) Number of backup sets in history: 4; groups (files): 1
+2200.292 (7) Examining (for files) backup set with nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+2200.292 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2200.357 (7) Examining (for files) backup set with nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+2200.357 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2200.357 (7) Examining (for files) backup set with nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+2200.358 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+2200.407 (7) Examining (for files) backup set with nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+2200.407 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+2200.408 (7) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2200.644 (7) Resume backup (c7d3d37b9795, 7): finish run
+2200.729 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2200.851 (7) No email will/can be sent - the user has not configured an email address.
+2200.895 (7) El respaldo no ha terminado; una reanudación está programada
+2497.914 (8) Opened log file at time: Fri, 29 Sep 2017 17:26:59 +0000 on http://127.0.0.1:88/efrainromo
+2498.067 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.9 WP: 4.8.1 PHP: 7.0.9 (apache2handler, Windows NT DESKTOP-MLA6ABP 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.5.49 WPLANG: es_ES Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.0.9 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 12.4M | 2M) multisite: N openssl: OpenSSL 1.0.2e 3 Dec 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2498.118 (8) Free space on disk containing Updraft's temporary directory: 149283.8 MB
+2498.217 (8) Backup run: resumption=8, nonce=c7d3d37b9795, begun at=1506703521 (2498s ago), job type=backup
+2498.306 (8) Scheduling a resumption (9) after 300 seconds (1506706319) in case this run gets aborted
+2498.397 (8) This backup run is not intended for files - skipping
+2498.440 (8) Database dump (WordPress DB): Creation was completed already
+2498.573 (8) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz: db: This file has not yet been successfully uploaded: will queue
+2498.618 (8) Saving backup history. Total backup size: 274.6 KB
+2498.707 (8) Requesting upload of the files that have not yet been successfully uploaded (1)
+2498.795 (8) Cloud backup selection (1/1): dropbox (last)
+2498.870 (8) Beginning dispatch of backup to remote (dropbox)
+2498.917 (8) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+2499.020 (8) Dropbox: access gained; setting chunk size to: 1024 KB
+2499.067 (8) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Could not resolve host: api.dropboxapi.com
+2499.106 (8) Dropbox: Attempt to upload: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz to: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz
+2499.158 (8) Dropbox chunked upload exception (Dropbox_CurlException): Could not resolve host: content.dropboxapi.com (line: 163, file: C:\MAMP\htdocs\efrainromo\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+2499.206 (8) Dropbox error: Could not resolve host: content.dropboxapi.com
+2499.251 (8) An error condition has occurred for the first time during this job
+2499.391 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2499.441 (8) Number of backup sets in history: 4; groups (db): 1
+2499.484 (8) Examining (for databases) backup set with group_id=0, nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+2499.566 (8) This backup set is the backup set just made, so will not be deleted.
+2499.567 (8) Examining (for databases) backup set with group_id=0, nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+2499.567 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2499.645 (8) Examining (for databases) backup set with group_id=0, nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+2499.645 (8) Examining (for databases) backup set with group_id=0, nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+2499.646 (8) Number of backup sets in history: 4; groups (files): 1
+2499.722 (8) Examining (for files) backup set with nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+2499.722 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2499.790 (8) Examining (for files) backup set with nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+2499.791 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2499.791 (8) Examining (for files) backup set with nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+2499.791 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+2499.866 (8) Examining (for files) backup set with nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+2499.867 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+2499.867 (8) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2500.047 (8) Resume backup (c7d3d37b9795, 8): finish run
+2500.108 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2500.244 (8) No email will/can be sent - the user has not configured an email address.
+2500.320 (8) El respaldo no ha terminado; una reanudación está programada
+2808.580 (9) Opened log file at time: Fri, 29 Sep 2017 17:32:10 +0000 on http://127.0.0.1:88/efrainromo
+2808.630 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.9 WP: 4.8.1 PHP: 7.0.9 (apache2handler, Windows NT DESKTOP-MLA6ABP 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.5.49 WPLANG: es_ES Server: Apache/2.2.31 (Win32) DAV/2 mod_ssl/2.2.31 OpenSSL/1.0.2e mod_fcgid/2.3.9 mod_wsgi/3.4 Python/2.7.6 PHP/7.0.9 mod_perl/2.0.8 Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 12.4M | 2M) multisite: N openssl: OpenSSL 1.0.2e 3 Dec 2015 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2808.674 (9) Free space on disk containing Updraft's temporary directory: 149279 MB
+2808.764 (9) Backup run: resumption=9, nonce=c7d3d37b9795, begun at=1506703521 (2809s ago), job type=backup
+2808.963 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+2809.008 (9) This backup run is not intended for files - skipping
+2809.052 (9) Database dump (WordPress DB): Creation was completed already
+2809.185 (9) backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz: db: This file has not yet been successfully uploaded: will queue
+2809.232 (9) Saving backup history. Total backup size: 274.6 KB
+2809.319 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+2809.418 (9) Cloud backup selection (1/1): dropbox (last)
+2809.464 (9) Beginning dispatch of backup to remote (dropbox)
+2809.507 (9) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+2809.554 (9) Dropbox: access gained; setting chunk size to: 1024 KB
+2809.601 (9) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Could not resolve host: api.dropboxapi.com
+2809.651 (9) Dropbox: Attempt to upload: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz to: backup_2017-09-29-1645_Efrain_Romo_c7d3d37b9795-db.gz
+2809.727 (9) Dropbox chunked upload exception (Dropbox_CurlException): Could not resolve host: content.dropboxapi.com (line: 163, file: C:\MAMP\htdocs\efrainromo\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+2809.774 (9) Dropbox error: Could not resolve host: content.dropboxapi.com
+2809.818 (9) An error condition has occurred for the first time during this job
+2809.951 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2809.998 (9) Number of backup sets in history: 4; groups (db): 1
+2810.040 (9) Examining (for databases) backup set with group_id=0, nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+2810.085 (9) This backup set is the backup set just made, so will not be deleted.
+2810.085 (9) Examining (for databases) backup set with group_id=0, nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+2810.085 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+2810.129 (9) Examining (for databases) backup set with group_id=0, nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+2810.129 (9) Examining (for databases) backup set with group_id=0, nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+2810.130 (9) Number of backup sets in history: 4; groups (files): 1
+2810.174 (9) Examining (for files) backup set with nonce=c7d3d37b9795, datestamp=1506703521 (Sep 29 2017 16:45:21)
+2810.174 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+2810.220 (9) Examining (for files) backup set with nonce=bf664146bc18, datestamp=1506643897 (Sep 29 2017 00:11:37)
+2810.220 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+2810.220 (9) Examining (for files) backup set with nonce=dab29a6f70c6, datestamp=1506443935 (Sep 26 2017 16:38:55)
+2810.221 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+2810.263 (9) Examining (for files) backup set with nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+2810.263 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+2810.264 (9) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2810.352 (9) Resume backup (c7d3d37b9795, 9): finish run
+2810.396 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2810.502 (9) No email will/can be sent - the user has not configured an email address.
+2810.552 (9) El intento de respaldo ha terminado, al parecer sin éxito

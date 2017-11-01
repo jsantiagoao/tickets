@@ -1,0 +1,456 @@
+0000.000 (0) Opened log file at time: Mon, 25 Sep 2017 16:45:03 +0000 on http://efrainromo.com.mx
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.9 WP: 4.8.1 PHP: 5.6.31 (cgi-fcgi, Linux servidor1194.il.controladordns.com 3.10.0-614.10.2.lve1.4.50.el7.x86_64 #1 SMP Mon May 22 16:28:14 EDT 2017 x86_64) MySQL: 10.1.24 WPLANG: es_ES Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 86.3M | 87.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.101 (0) Free space on disk containing Updraft's temporary directory: 1597188.8 MB
+0000.104 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.106 (0) Semaphore (fd, er_options) being initialised
+0000.113 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.118 (0) Set semaphore last lock (fd) time to 2017-09-25 16:45:04
+0000.119 (0) Semaphore lock (fd) complete
+0000.125 (0) Backup run: resumption=0, nonce=18aee202e167, begun at=1506357903 (1s ago), job type=backup
+0000.130 (0) Scheduling a resumption (1) after 300 seconds (1506358204) in case this run gets aborted
+0000.164 (0) Checking if we have a zip executable available
+0000.166 (0) Testing: /usr/bin/zip
+0000.174 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.176 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.177 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.179 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.180 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.187 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.188 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.194 (0) Working binary zip found: /usr/bin/zip
+0000.197 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.200 (0) Creation of backups of directories: beginning
+0000.204 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.228 (0) Total entities for the zip file: 1018 directories, 7518 files (0 skipped as non-modified), 84.6 MB
+0001.233 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.237 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.241 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.252 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.256 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.258 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 7518 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.055 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: size is now: 1.70 MB
+0002.086 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 600 files added (on-disk size: 1705.6 KB)
+0002.110 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 700 files added (on-disk size: 1705.6 KB)
+0002.115 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 800 files added (on-disk size: 1705.6 KB)
+0002.124 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 900 files added (on-disk size: 1705.6 KB)
+0002.128 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 1000 files added (on-disk size: 1705.6 KB)
+0002.131 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 7518 files batched, 501 (1002) added so far); re-opening (prior size: 1705.6 KB)
+0008.092 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: size is now: 2.40 MB
+0008.099 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 1100 files added (on-disk size: 2450.3 KB)
+0008.103 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 1200 files added (on-disk size: 2450.3 KB)
+0008.107 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 1300 files added (on-disk size: 2450.3 KB)
+0008.111 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 1400 files added (on-disk size: 2450.3 KB)
+0008.115 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 1500 files added (on-disk size: 2450.3 KB)
+0008.120 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 7518 files batched, 501 (1503) added so far); re-opening (prior size: 2450.3 KB)
+0009.945 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: size is now: 3.60 MB
+0009.951 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 1600 files added (on-disk size: 3660.9 KB)
+0009.955 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 1700 files added (on-disk size: 3660.9 KB)
+0009.959 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 1800 files added (on-disk size: 3660.9 KB)
+0009.979 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 1900 files added (on-disk size: 3660.9 KB)
+0009.987 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 2000 files added (on-disk size: 3660.9 KB)
+0009.989 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 7518 files batched, 501 (2004) added so far); re-opening (prior size: 3660.9 KB)
+0019.928 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: size is now: 5.50 MB
+0019.935 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 2100 files added (on-disk size: 5627.2 KB)
+0019.940 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 2200 files added (on-disk size: 5627.2 KB)
+0021.441 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 2300 files added (on-disk size: 5627.2 KB)
+0021.445 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 2400 files added (on-disk size: 5627.2 KB)
+0021.449 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 2500 files added (on-disk size: 5627.2 KB)
+0021.451 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 7518 files batched, 501 (2505) added so far); re-opening (prior size: 5627.2 KB)
+0035.379 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: size is now: 8.70 MB
+0035.386 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 2600 files added (on-disk size: 8947.7 KB)
+0035.390 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 2700 files added (on-disk size: 8947.7 KB)
+0035.394 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 2800 files added (on-disk size: 8947.7 KB)
+0035.397 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 2900 files added (on-disk size: 8947.7 KB)
+0035.402 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 3000 files added (on-disk size: 8947.7 KB)
+0035.405 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.2 MB, 7518 files batched, 501 (3006) added so far); re-opening (prior size: 8947.7 KB)
+0044.970 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 3100 files added (on-disk size: 9184.8 KB)
+0044.974 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 3200 files added (on-disk size: 9184.8 KB)
+0044.978 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 3300 files added (on-disk size: 9184.8 KB)
+0044.982 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 3400 files added (on-disk size: 9184.8 KB)
+0044.995 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 3500 files added (on-disk size: 9184.8 KB)
+0044.998 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 7518 files batched, 501 (3507) added so far); re-opening (prior size: 9184.8 KB)
+0056.487 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 3600 files added (on-disk size: 10537.6 KB)
+0056.491 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 3700 files added (on-disk size: 10537.6 KB)
+0056.499 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 3800 files added (on-disk size: 10537.6 KB)
+0056.512 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 3900 files added (on-disk size: 10537.6 KB)
+0056.517 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 4000 files added (on-disk size: 10537.6 KB)
+0056.520 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 7518 files batched, 501 (4008) added so far); re-opening (prior size: 10537.6 KB)
+0088.348 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: size is now: 13.60 MB
+0088.379 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 4100 files added (on-disk size: 13959.6 KB)
+0092.140 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.5 MB, 93 (4101) files added so far); re-opening (prior size: 13959.6 KB)
+0114.518 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 4200 files added (on-disk size: 14130.2 KB)
+0114.523 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 4300 files added (on-disk size: 14130.2 KB)
+0114.529 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 4400 files added (on-disk size: 14130.2 KB)
+0114.547 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 4500 files added (on-disk size: 14130.2 KB)
+0114.579 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 4600 files added (on-disk size: 14130.2 KB)
+0114.586 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 7518 files batched, 501 (4602) added so far); re-opening (prior size: 14130.2 KB)
+0138.794 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 4700 files added (on-disk size: 15465.1 KB)
+0138.811 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 4800 files added (on-disk size: 15465.1 KB)
+0141.376 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (1.6 MB, 199 (4801) files added so far); re-opening (prior size: 15465.1 KB)
+0172.335 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 4900 files added (on-disk size: 15984.7 KB)
+0172.355 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 5000 files added (on-disk size: 15984.7 KB)
+0172.410 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 5100 files added (on-disk size: 15984.7 KB)
+0172.422 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 5200 files added (on-disk size: 15984.7 KB)
+0172.450 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 5300 files added (on-disk size: 15984.7 KB)
+0172.452 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 7518 files batched, 501 (5302) added so far); re-opening (prior size: 15984.7 KB)
+0220.011 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 5400 files added (on-disk size: 18476.9 KB)
+0220.039 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 5500 files added (on-disk size: 18476.9 KB)
+0220.597 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 5600 files added (on-disk size: 18476.9 KB)
+0220.601 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 5700 files added (on-disk size: 18476.9 KB)
+0220.620 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 5800 files added (on-disk size: 18476.9 KB)
+0220.647 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.6 MB, 7518 files batched, 501 (5803) added so far); re-opening (prior size: 18476.9 KB)
+0269.556 (0) The scheduled resumption is within 45 seconds - will reschedule
+0269.603 (0) Rescheduling resumption 1: moving to 345 seconds from now (1506358518)
+0269.615 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0269.619 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 5900 files added (on-disk size: 21085.3 KB)
+0269.623 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 6000 files added (on-disk size: 21085.3 KB)
+0269.640 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 6100 files added (on-disk size: 21085.3 KB)
+0269.651 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 6200 files added (on-disk size: 21085.3 KB)
+0269.681 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 6300 files added (on-disk size: 21085.3 KB)
+0269.689 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.3 MB, 7518 files batched, 501 (6304) added so far); re-opening (prior size: 21085.3 KB)
+0320.128 (0) The time we have been running (320.1) is approaching the resumption interval (345) - increasing resumption interval to 351
+0325.197 (0) The time we have been running (325.2) is approaching the resumption interval (351) - increasing resumption interval to 356
+0325.203 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 6400 files added (on-disk size: 24411.7 KB)
+0329.500 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (1.6 MB, 97 (6401) files added so far); re-opening (prior size: 24411.7 KB)
+0373.646 (0) The time we have been running (373.6) is approaching the resumption interval (356) - increasing resumption interval to 404
+0377.748 (0) The time we have been running (377.7) is approaching the resumption interval (404) - increasing resumption interval to 408
+0377.754 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 6500 files added (on-disk size: 24969.2 KB)
+0377.758 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 6600 files added (on-disk size: 24969.2 KB)
+0377.762 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 6700 files added (on-disk size: 24969.2 KB)
+0377.766 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 6800 files added (on-disk size: 24969.2 KB)
+0377.770 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 6900 files added (on-disk size: 24969.2 KB)
+0377.772 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 7518 files batched, 501 (6902) added so far); re-opening (prior size: 24969.2 KB)
+0400.116 (0) The time we have been running (400.1) is approaching the resumption interval (408) - increasing resumption interval to 431
+0405.817 (0) The time we have been running (405.8) is approaching the resumption interval (431) - increasing resumption interval to 436
+0405.823 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 7000 files added (on-disk size: 25729.3 KB)
+0405.827 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 7100 files added (on-disk size: 25729.3 KB)
+0405.832 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 7200 files added (on-disk size: 25729.3 KB)
+0405.836 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 7300 files added (on-disk size: 25729.3 KB)
+0405.844 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 7400 files added (on-disk size: 25729.3 KB)
+0405.857 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 MB, 7518 files batched, 501 (7403) added so far); re-opening (prior size: 25729.3 KB)
+0433.621 (0) The time we have been running (433.6) is approaching the resumption interval (436) - increasing resumption interval to 464
+0439.364 (0) The time we have been running (439.4) is approaching the resumption interval (464) - increasing resumption interval to 470
+0445.099 (0) The time we have been running (445.1) is approaching the resumption interval (470) - increasing resumption interval to 476
+0450.347 (0) The time we have been running (450.3) is approaching the resumption interval (476) - increasing resumption interval to 481
+0450.353 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip.tmp: 7500 files added (on-disk size: 28130.3 KB)
+0503.861 (0) The time we have been running (503.9) is approaching the resumption interval (481) - increasing resumption interval to 534
+0510.757 (0) The time we have been running (510.7) is approaching the resumption interval (534) - increasing resumption interval to 541
+0514.232 (0) The time we have been running (514.2) is approaching the resumption interval (541) - increasing resumption interval to 545
+0540.002 (0) Created plugins zip (0) - 30346.2 KB in 539.7 s (56.2 KB/s) (sha1: f1b28c1b9be956cfad1f6608ef49b36ed5d69f2c, sha256: b3b6021e4df72bbd1e052843a7442221ab74053400785bac721216991c44ed3f)
+0540.022 (0) Beginning creation of dump of themes (split every: 400 MB)
+0540.402 (0) Total entities for the zip file: 62 directories, 329 files (0 skipped as non-modified), 23.8 MB
+0540.406 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0540.410 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0540.414 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0551.874 (0) The time we have been running (551.9) is approaching the resumption interval (545) - increasing resumption interval to 582
+0559.915 (0) The time we have been running (559.9) is approaching the resumption interval (582) - increasing resumption interval to 590
+0576.102 (0) The time we have been running (576.1) is approaching the resumption interval (590) - increasing resumption interval to 607
+0584.369 (0) The time we have been running (584.4) is approaching the resumption interval (607) - increasing resumption interval to 615
+0584.507 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-themes.zip.tmp: size is now: 20.90 MB
+0584.512 (0) The scheduled resumption is within 45 seconds - will reschedule
+0584.515 (0) Rescheduling resumption 1: moving to 660 seconds from now (1506359148)
+0584.521 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 615 + 45 = 660
+0584.794 (0) Created themes zip (0) - 21407.5 KB in 44.7 s (479.4 KB/s) (sha1: 3d82295ba3c365e3ba4e86b3432acfdb18955385, sha256: 01cd173b514b5fd8eb9a133af71e32ab00241b45da1de3af5806943928ce219d)
+0584.806 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0584.827 (0) Looking for candidates to back up in: /home/efrainro/public_html/wp-content/uploads
+0584.839 (0) finding files: GeoIPv6.dat: adding to list (1)
+0584.841 (0) finding files: wc-logs: adding to list (2)
+0584.842 (0) finding files: revslider: adding to list (3)
+0584.852 (0) finding files: js_composer: adding to list (4)
+0584.854 (0) finding files: woocommerce_uploads: adding to list (5)
+0584.856 (0) finding files: GeoIP.dat: adding to list (6)
+0584.857 (0) finding files: 2017: adding to list (7)
+0584.859 (0) finding files: backwpup-cd7012-logs: skipping: excluded by options (glob)
+0584.860 (0) finding files: backwpup-cd7012-temp: skipping: excluded by options (glob)
+0584.862 (0) finding files: 2016: adding to list (8)
+0584.863 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0585.309 (0) Total entities for the zip file: 126 directories, 2130 files (0 skipped as non-modified), 35.7 MB
+0585.314 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0585.318 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0589.363 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (6.8 MB, 201 (201) files added so far); re-opening (prior size: 0 KB)
+0604.061 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: size is now: 5.90 MB
+0604.069 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 300 files added (on-disk size: 6030.4 KB)
+0604.073 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 400 files added (on-disk size: 6030.4 KB)
+0604.077 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 500 files added (on-disk size: 6030.4 KB)
+0604.083 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 600 files added (on-disk size: 6030.4 KB)
+0604.092 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 700 files added (on-disk size: 6030.4 KB)
+0604.097 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 2130 files batched, 501 (702) added so far); re-opening (prior size: 6030.4 KB)
+0625.729 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: size is now: 12.50 MB
+0625.736 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 800 files added (on-disk size: 12774.7 KB)
+0625.740 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 900 files added (on-disk size: 12774.7 KB)
+0625.744 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 1000 files added (on-disk size: 12774.7 KB)
+0625.748 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 1100 files added (on-disk size: 12774.7 KB)
+0625.754 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 1200 files added (on-disk size: 12774.7 KB)
+0625.758 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 2130 files batched, 501 (1203) added so far); re-opening (prior size: 12774.7 KB)
+0640.735 (0) The time we have been running (640.7) is approaching the resumption interval (660) - increasing resumption interval to 671
+0649.149 (0) The time we have been running (649.1) is approaching the resumption interval (671) - increasing resumption interval to 680
+0658.076 (0) The time we have been running (658.1) is approaching the resumption interval (680) - increasing resumption interval to 689
+0658.079 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: size is now: 20.10 MB
+0658.085 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 1300 files added (on-disk size: 20539.6 KB)
+0658.089 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 1400 files added (on-disk size: 20539.6 KB)
+0658.093 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 1500 files added (on-disk size: 20539.6 KB)
+0658.096 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 1600 files added (on-disk size: 20539.6 KB)
+0658.103 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 1700 files added (on-disk size: 20539.6 KB)
+0658.104 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 2130 files batched, 501 (1704) added so far); re-opening (prior size: 20539.6 KB)
+0676.684 (0) The time we have been running (676.7) is approaching the resumption interval (689) - increasing resumption interval to 707
+0684.338 (0) The time we have been running (684.3) is approaching the resumption interval (707) - increasing resumption interval to 715
+0692.974 (0) The time we have been running (693) is approaching the resumption interval (715) - increasing resumption interval to 723
+0693.137 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: size is now: 27.10 MB
+0693.143 (0) The time we have been running (693.1) is approaching the resumption interval (723) - increasing resumption interval to 724
+0693.149 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 1800 files added (on-disk size: 27791.2 KB)
+0693.153 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 1900 files added (on-disk size: 27791.2 KB)
+0693.157 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 2000 files added (on-disk size: 27791.2 KB)
+0693.161 (0) Zip: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: 2100 files added (on-disk size: 27791.2 KB)
+0723.370 (0) The time we have been running (723.4) is approaching the resumption interval (724) - increasing resumption interval to 754
+0731.014 (0) The time we have been running (731) is approaching the resumption interval (754) - increasing resumption interval to 762
+0739.732 (0) The time we have been running (739.7) is approaching the resumption interval (762) - increasing resumption interval to 770
+0739.827 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip.tmp: size is now: 34.70 MB
+0740.245 (0) Created uploads zip (0) - 35539.7 KB in 155.3 s (228.8 KB/s) (sha1: 5291e294ff88cbf280721ac8d0023c3b1097e6f2, sha256: 842328ccd9225fb2127ea233cc4c6dec6330029dd10ec1b2909b5f3986538658)
+0740.265 (0) Beginning backup of other directories found in the content directory (index: 0)
+0740.266 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0740.268 (0) Looking for candidates to back up in: /home/efrainro/public_html/wp-content
+0740.269 (0) finding files: uploads: skipping: this is the uploads directory
+0740.271 (0) finding files: index.php: adding to list (1)
+0740.273 (0) finding files: updraft: skipping: this is the updraft directory
+0740.274 (0) finding files: plugins: skipping: this is the plugins directory
+0740.276 (0) finding files: upgrade: skipping: excluded by options
+0740.277 (0) finding files: themes: skipping: this is the themes directory
+0740.278 (0) finding files: languages: adding to list (2)
+0740.386 (0) Total entities for the zip file: 3 directories, 25 files (0 skipped as non-modified), 3.3 MB
+0741.585 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-others.zip.tmp: size is now: 0.90 MB
+0741.593 (0) The time we have been running (741.6) is approaching the resumption interval (770) - increasing resumption interval to 772
+0741.609 (0) Created others zip (0) - 942.2 KB in 1.2 s (766.1 KB/s) (sha1: 0935c66b1ca46b2a6f4542bbcb0e686aa38eeb42, sha256: 70085b16da4622f00205bcd5ebe394121ea57a436ff6236ca780d86bc05fd166)
+0741.615 (0) Saving backup status to database (elements: 8)
+0741.620 (0) Beginning creation of database dump (WordPress DB)
+0741.624 (0) Testing: /usr/bin/mysqldump
+0743.002 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `er_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1208 bytes total)
+0743.044 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0743.052 (0) Table er_options: Total expected rows (approximate): 540
+0743.100 (0) Table er_options: Total rows added: 546 in 0.05 seconds
+0743.102 (0) Table er_options: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_options.table.gz - 197.4 KB)
+0743.108 (0) The time we have been running (743.1) is approaching the resumption interval (772) - increasing resumption interval to 774
+0743.113 (0) Table er_users: Total expected rows (approximate): 5
+0743.117 (0) Table er_users: Total rows added: 5 in 0.00 seconds
+0743.119 (0) Table er_users: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_users.table.gz - 0.7 KB)
+0743.124 (0) Table er_usermeta: Total expected rows (approximate): 112
+0743.128 (0) Table er_usermeta: Total rows added: 112 in 0.00 seconds
+0743.130 (0) Table er_usermeta: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_usermeta.table.gz - 2.7 KB)
+0743.138 (0) Table er_commentmeta: Total expected rows (approximate): 6
+0743.141 (0) Table er_commentmeta: Total rows added: 6 in 0.00 seconds
+0743.142 (0) Table er_commentmeta: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_commentmeta.table.gz - 0.4 KB)
+0743.149 (0) Table er_comments: Total expected rows (approximate): 6
+0743.152 (0) Table er_comments: Total rows added: 6 in 0.00 seconds
+0743.154 (0) Table er_comments: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_comments.table.gz - 1.2 KB)
+0743.183 (0) Table er_links: Total expected rows (approximate): 0
+0743.185 (0) Table er_links: Total rows added: 0 in 0.00 seconds
+0743.187 (0) Table er_links: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_links.table.gz - 0.4 KB)
+0743.192 (0) Table er_postmeta: Total expected rows (approximate): 3174
+0743.255 (0) Table er_postmeta: Total rows added: 3324 in 0.06 seconds
+0743.257 (0) Table er_postmeta: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_postmeta.table.gz - 38.4 KB)
+0743.263 (0) Table er_posts: Total expected rows (approximate): 216
+0743.346 (0) Table er_posts: Total rows added: 245 in 0.08 seconds
+0743.348 (0) Table er_posts: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_posts.table.gz - 47.4 KB)
+0743.353 (0) Table er_term_relationships: Total expected rows (approximate): 142
+0743.357 (0) Table er_term_relationships: Total rows added: 144 in 0.00 seconds
+0743.359 (0) Table er_term_relationships: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_term_relationships.table.gz - 0.8 KB)
+0743.364 (0) Table er_term_taxonomy: Total expected rows (approximate): 61
+0743.369 (0) Table er_term_taxonomy: Total rows added: 61 in 0.00 seconds
+0743.370 (0) Table er_term_taxonomy: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_term_taxonomy.table.gz - 0.9 KB)
+0743.377 (0) Table er_termmeta: Total expected rows (approximate): 2
+0743.380 (0) Table er_termmeta: Total rows added: 2 in 0.00 seconds
+0743.381 (0) Table er_termmeta: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_termmeta.table.gz - 0.5 KB)
+0743.387 (0) Table er_terms: Total expected rows (approximate): 60
+0743.391 (0) Table er_terms: Total rows added: 61 in 0.00 seconds
+0743.393 (0) Table er_terms: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_terms.table.gz - 1.1 KB)
+0743.399 (0) Table er_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0743.402 (0) Table er_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0743.403 (0) Table er_woocommerce_order_itemmeta: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0743.440 (0) Table er_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0743.443 (0) Table er_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0743.445 (0) Table er_woocommerce_payment_tokenmeta: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0743.477 (0) Table er_eg_grids: Total expected rows (approximate): 3
+0743.480 (0) Table er_eg_grids: Total rows added: 3 in 0.00 seconds
+0743.482 (0) Table er_eg_grids: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_eg_grids.table.gz - 2.1 KB)
+0743.492 (0) Table er_eg_item_elements: Total expected rows (approximate): 0
+0743.494 (0) Table er_eg_item_elements: Total rows added: 0 in 0.00 seconds
+0743.502 (0) Table er_eg_item_elements: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_eg_item_elements.table.gz - 0.3 KB)
+0743.580 (0) Table er_eg_item_skins: Total expected rows (approximate): 37
+0743.616 (0) Table er_eg_item_skins: Total rows added: 50 in 0.03 seconds
+0743.619 (0) Table er_eg_item_skins: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_eg_item_skins.table.gz - 22.2 KB)
+0743.633 (0) Table er_eg_navigation_skins: Total expected rows (approximate): 8
+0743.643 (0) Table er_eg_navigation_skins: Total rows added: 8 in 0.01 seconds
+0743.645 (0) Table er_eg_navigation_skins: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_eg_navigation_skins.table.gz - 3.4 KB)
+0743.660 (0) Table er_revslider_css: Total expected rows (approximate): 109
+0743.673 (0) Table er_revslider_css: Total rows added: 113 in 0.01 seconds
+0743.674 (0) Table er_revslider_css: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_css.table.gz - 5 KB)
+0743.682 (0) Table er_revslider_layer_animations: Total expected rows (approximate): 0
+0743.684 (0) Table er_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0743.686 (0) Table er_revslider_layer_animations: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_layer_animations.table.gz - 0.3 KB)
+0743.694 (0) Table er_revslider_navigations: Total expected rows (approximate): 0
+0743.696 (0) Table er_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0743.700 (0) Table er_revslider_navigations: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_navigations.table.gz - 0.3 KB)
+0743.706 (0) Table er_revslider_sliders: Total expected rows (approximate): 2
+0743.709 (0) Table er_revslider_sliders: Total rows added: 2 in 0.00 seconds
+0743.711 (0) Table er_revslider_sliders: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_sliders.table.gz - 3.3 KB)
+0743.736 (0) Table er_revslider_slides: Total expected rows (approximate): 6
+0743.753 (0) Table er_revslider_slides: Total rows added: 6 in 0.01 seconds
+0743.755 (0) Table er_revslider_slides: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_slides.table.gz - 5.9 KB)
+0743.763 (0) Table er_revslider_static_slides: Total expected rows (approximate): 0
+0743.766 (0) Table er_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0743.768 (0) Table er_revslider_static_slides: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_static_slides.table.gz - 0.3 KB)
+0743.805 (0) Table er_woocommerce_api_keys: Total expected rows (approximate): 0
+0743.808 (0) Table er_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0743.811 (0) Table er_woocommerce_api_keys: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_api_keys.table.gz - 0.4 KB)
+0743.826 (0) Table er_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0743.830 (0) Table er_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0743.832 (0) Table er_woocommerce_attribute_taxonomies: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0743.864 (0) Table er_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0743.867 (0) Table er_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0743.880 (0) Table er_woocommerce_downloadable_product_permissions: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0743.904 (0) Table er_woocommerce_log: Total expected rows (approximate): 0
+0743.908 (0) Table er_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0747.478 (0) Table er_woocommerce_log: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_log.table.gz - 0.4 KB)
+0747.501 (0) The time we have been running (747.5) is approaching the resumption interval (774) - increasing resumption interval to 778
+0747.521 (0) Table er_woocommerce_order_items: Total expected rows (approximate): 0
+0747.523 (0) Table er_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0747.526 (0) Table er_woocommerce_order_items: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_order_items.table.gz - 0.4 KB)
+0747.568 (0) Table er_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0747.571 (0) Table er_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0747.573 (0) Table er_woocommerce_payment_tokens: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0747.579 (0) Table er_woocommerce_sessions: Total expected rows (approximate): 1
+0747.582 (0) Table er_woocommerce_sessions: Total rows added: 1 in 0.00 seconds
+0747.584 (0) Table er_woocommerce_sessions: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_sessions.table.gz - 0.6 KB)
+0747.594 (0) Table er_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0747.597 (0) Table er_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0747.598 (0) Table er_woocommerce_shipping_zone_locations: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0747.607 (0) Table er_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0747.612 (0) Table er_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0747.613 (0) Table er_woocommerce_shipping_zone_methods: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0747.650 (0) Table er_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0747.657 (0) Table er_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0747.659 (0) Table er_woocommerce_shipping_zones: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0747.667 (0) Table er_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0747.670 (0) Table er_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0747.671 (0) Table er_woocommerce_tax_rate_locations: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0747.680 (0) Table er_woocommerce_tax_rates: Total expected rows (approximate): 0
+0747.691 (0) Table er_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0747.693 (0) Table er_woocommerce_tax_rates: finishing file (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_tax_rates.table.gz - 0.4 KB)
+0747.699 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_options.table.gz (1/36): adding to final database dump
+0747.737 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_users.table.gz (2/36): adding to final database dump
+0747.740 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_usermeta.table.gz (3/36): adding to final database dump
+0747.742 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_commentmeta.table.gz (4/36): adding to final database dump
+0747.744 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_comments.table.gz (5/36): adding to final database dump
+0747.746 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_links.table.gz (6/36): adding to final database dump
+0747.748 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_postmeta.table.gz (7/36): adding to final database dump
+0747.769 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_posts.table.gz (8/36): adding to final database dump
+0747.781 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_term_relationships.table.gz (9/36): adding to final database dump
+0747.785 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_term_taxonomy.table.gz (10/36): adding to final database dump
+0747.787 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_termmeta.table.gz (11/36): adding to final database dump
+0747.790 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_terms.table.gz (12/36): adding to final database dump
+0747.792 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_order_itemmeta.table.gz (13/36): adding to final database dump
+0747.794 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_payment_tokenmeta.table.gz (14/36): adding to final database dump
+0747.796 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_eg_grids.table.gz (15/36): adding to final database dump
+0747.798 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_eg_item_elements.table.gz (16/36): adding to final database dump
+0747.801 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_eg_item_skins.table.gz (17/36): adding to final database dump
+0747.811 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_eg_navigation_skins.table.gz (18/36): adding to final database dump
+0747.814 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_css.table.gz (19/36): adding to final database dump
+0747.817 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_layer_animations.table.gz (20/36): adding to final database dump
+0747.819 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_navigations.table.gz (21/36): adding to final database dump
+0747.822 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_sliders.table.gz (22/36): adding to final database dump
+0747.824 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_slides.table.gz (23/36): adding to final database dump
+0747.828 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_revslider_static_slides.table.gz (24/36): adding to final database dump
+0747.829 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_api_keys.table.gz (25/36): adding to final database dump
+0747.831 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_attribute_taxonomies.table.gz (26/36): adding to final database dump
+0747.832 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_downloadable_product_permissions.table.gz (27/36): adding to final database dump
+0747.836 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_log.table.gz (28/36): adding to final database dump
+0747.837 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_order_items.table.gz (29/36): adding to final database dump
+0747.839 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_payment_tokens.table.gz (30/36): adding to final database dump
+0747.841 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_sessions.table.gz (31/36): adding to final database dump
+0747.842 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_shipping_zone_locations.table.gz (32/36): adding to final database dump
+0747.844 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_shipping_zone_methods.table.gz (33/36): adding to final database dump
+0747.846 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_shipping_zones.table.gz (34/36): adding to final database dump
+0747.847 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_tax_rate_locations.table.gz (35/36): adding to final database dump
+0747.860 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db-table-er_woocommerce_tax_rates.table.gz (36/36): adding to final database dump
+0747.862 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db.gz: finished writing out complete database file (320 KB)
+0747.885 (0) Total database tables backed up: 36 (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db.gz, size: 339837, sha256)
+0747.895 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0747.896 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0747.898 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0747.899 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-others.zip: others: This file has not yet been successfully uploaded: will queue
+0747.900 (0) backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db.gz: db: This file has not yet been successfully uploaded: will queue
+0747.903 (0) Saving backup history. Total backup size: 86.5 MB
+0747.907 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0747.913 (0) Cloud backup selection (1/1): dropbox (last)
+0747.914 (0) Beginning dispatch of backup to remote (dropbox)
+0747.916 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0747.921 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0748.174 (0) Dropbox quota usage: used=1.1 MB, total=2048 MB, available=2046.9 MB
+0748.177 (0) Dropbox: Attempt to upload: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip to: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip
+0749.151 (0) The time we have been running (749.1) is approaching the resumption interval (778) - increasing resumption interval to 780
+0749.155 (0) Dropbox chunked upload: 3.4 % uploaded (AAAAAAAAABOeu7UD2eG5NQ, 1048576, 9216 KB)
+0754.143 (0) The time we have been running (754.1) is approaching the resumption interval (780) - increasing resumption interval to 785
+0754.147 (0) Dropbox chunked upload: 33.7 % uploaded (AAAAAAAAABOeu7UD2eG5NQ, 10485760, 10240 KB)
+0758.379 (0) The time we have been running (758.4) is approaching the resumption interval (785) - increasing resumption interval to 789
+0758.404 (0) Dropbox chunked upload: 67.5 % uploaded (AAAAAAAAABOeu7UD2eG5NQ, 20971520, 10240 KB)
+0763.445 (0) The time we have been running (763.4) is approaching the resumption interval (789) - increasing resumption interval to 794
+0763.449 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABOeu7UD2eG5NQ, 31074512, 10240 KB)
+0764.781 (0) Recording as successfully uploaded: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip (91f5a21a893d30f3347afa5f620fe605)
+0764.793 (0) Deleting local file: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip: OK
+0764.795 (0) Dropbox: File upload success (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-plugins.zip): 30346 KB in 16s (1826 KB/s)
+0765.054 (0) Dropbox quota usage: used=30.7 MB, total=2048 MB, available=2017.3 MB
+0765.056 (0) Dropbox: Attempt to upload: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-themes.zip to: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-themes.zip
+0778.942 (0) The time we have been running (778.9) is approaching the resumption interval (794) - increasing resumption interval to 809
+0778.947 (0) Dropbox chunked upload: 47.8 % uploaded (AAAAAAAAABSFmxYdj5PmPA, 10485760, 10240 KB)
+0791.100 (0) The time we have been running (791.1) is approaching the resumption interval (809) - increasing resumption interval to 822
+0791.103 (0) Dropbox chunked upload: 95.7 % uploaded (AAAAAAAAABSFmxYdj5PmPA, 20971520, 10240 KB)
+0793.207 (0) The time we have been running (793.2) is approaching the resumption interval (822) - increasing resumption interval to 824
+0793.210 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABSFmxYdj5PmPA, 21921240, 10240 KB)
+0794.819 (0) Recording as successfully uploaded: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-themes.zip (267652e27623c24ccbd40cec0ae4cd75)
+0794.830 (0) Deleting local file: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-themes.zip: OK
+0794.833 (0) Dropbox: File upload success (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-themes.zip): 21407 KB in 29s (718 KB/s)
+0795.112 (0) Dropbox quota usage: used=51.6 MB, total=2048 MB, available=1996.4 MB
+0795.114 (0) Dropbox: Attempt to upload: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip to: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip
+0808.921 (0) The time we have been running (808.9) is approaching the resumption interval (824) - increasing resumption interval to 839
+0808.927 (0) Dropbox chunked upload: 28.8 % uploaded (AAAAAAAAABXNjzzJ8VbJcQ, 10485760, 10240 KB)
+0819.455 (0) The time we have been running (819.5) is approaching the resumption interval (839) - increasing resumption interval to 850
+0819.458 (0) Dropbox chunked upload: 57.6 % uploaded (AAAAAAAAABXNjzzJ8VbJcQ, 20971520, 10240 KB)
+0832.470 (0) The time we have been running (832.5) is approaching the resumption interval (850) - increasing resumption interval to 863
+0832.473 (0) Dropbox chunked upload: 86.4 % uploaded (AAAAAAAAABXNjzzJ8VbJcQ, 31457280, 10240 KB)
+0841.686 (0) The time we have been running (841.7) is approaching the resumption interval (863) - increasing resumption interval to 872
+0841.689 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABXNjzzJ8VbJcQ, 36392687, 10240 KB)
+0844.217 (0) Recording as successfully uploaded: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip (dbc00bde2d0f251134bf40763cf954de)
+0844.226 (0) Deleting local file: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip: OK
+0844.228 (0) Dropbox: File upload success (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-uploads.zip): 35539 KB in 49s (723 KB/s)
+0844.490 (0) Dropbox quota usage: used=86.3 MB, total=2048 MB, available=1961.7 MB
+0844.497 (0) Dropbox: Attempt to upload: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-others.zip to: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-others.zip
+0845.890 (0) The time we have been running (845.9) is approaching the resumption interval (872) - increasing resumption interval to 876
+0845.893 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABaZjW27A05pAA, 964795, 10240 KB)
+0848.403 (0) Recording as successfully uploaded: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-others.zip (c91a9d0d87ced5ab1eaa21c25ef22108)
+0848.408 (0) Deleting local file: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-others.zip: OK
+0848.409 (0) Dropbox: File upload success (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-others.zip): 942 KB in 3s (240 KB/s)
+0848.827 (0) Dropbox quota usage: used=87.3 MB, total=2048 MB, available=1960.7 MB
+0848.830 (0) Dropbox: Attempt to upload: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db.gz to: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db.gz
+0849.584 (0) The time we have been running (849.6) is approaching the resumption interval (876) - increasing resumption interval to 880
+0849.588 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABe_QzpGFY0hzQ, 339837, 10240 KB)
+0851.059 (0) Recording as successfully uploaded: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db.gz (179be9f00e036365e36d0d0cc5d04a24)
+0851.064 (0) Deleting local file: backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db.gz: OK
+0851.065 (0) Dropbox: File upload success (backup_2017-09-25-1645_Efrain_Romo_18aee202e167-db.gz): 331 KB in 2s (148 KB/s)
+0851.073 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0851.074 (0) Number of backup sets in history: 1; groups (db): 1
+0851.076 (0) Examining (for databases) backup set with group_id=0, nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+0851.077 (0) This backup set is the backup set just made, so will not be deleted.
+0851.077 (0) Number of backup sets in history: 1; groups (files): 1
+0851.078 (0) Examining (for files) backup set with nonce=18aee202e167, datestamp=1506357903 (Sep 25 2017 16:45:03)
+0851.078 (0) This backup set is the backup set just made, so will not be deleted.
+0851.081 (0) This backup set is the backup set just made, so will not be deleted.
+0851.081 (0) This backup set is the backup set just made, so will not be deleted.
+0851.081 (0) This backup set is the backup set just made, so will not be deleted.
+0851.081 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0851.082 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0851.086 (0) Resume backup (18aee202e167, 0): finish run
+0851.091 (0) Decremented the semaphore (fd) by 1
+0851.094 (0) Semaphore (fd) unlocked
+0851.095 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0851.100 (0) The backup apparently succeeded and is now complete
+0851.102 (0) No email will/can be sent - the user has not configured an email address.
+0851.103 (0) El respaldo parece haber tenido éxito y ahora está completado
